@@ -8,8 +8,8 @@ class Precticescreen extends StatelessWidget{
   Widget build(BuildContext context) {
    return Scaffold(
     appBar: AppBar(
-      backgroundColor: Colors.blue,
-      title:Text("practicesapp"),
+      backgroundColor: const Color.fromARGB(255, 0, 0, 0),
+      title:Center(child: Text("Practicesapp",style: TextStyle(color: Colors.amber,fontSize: 30,fontWeight: FontWeight.w900),)),
     ),
    );
 
