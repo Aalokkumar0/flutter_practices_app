@@ -19,22 +19,167 @@ class Precticescreen extends StatelessWidget {
           ),
         ),
       ),
-      body: Center(
-        child: Container(
-          height: 200,
-          width: 200,
-          color: Colors.black,
-          child: Center(
-            child: Text(
-              "Hello' this is Container",
-              style: TextStyle(
-                fontSize: 15,
-                fontWeight: FontWeight.w900,
-                color: Colors.white,
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        
+        children: [
+          SizedBox(height: 20,),
+          Center(
+            
+            child: Container(
+              height:40,
+              width: 60,
+              color: Colors.black,
+              child: Center(
+                child: Text(
+                  "Hello'",
+                  style: TextStyle(
+                    fontSize: 15,
+                    fontWeight: FontWeight.w900,
+                    color: Colors.white,
+                  ),
+                ),
               ),
             ),
           ),
-        ),
+         
+          Center(
+            child: Container(
+              height: 60,
+              width: 100,
+              color: Colors.black,
+              child: Center(
+                child: Text(
+                  "Hello' this",
+                  style: TextStyle(
+                    fontSize: 15,
+                    fontWeight: FontWeight.w900,
+                    color: Colors.white,
+                  ),
+                ),
+              ),
+            ),
+          ),
+          Center(
+            child: Container(
+              height: 60,
+              width: 140,
+              color: Colors.black,
+              child: Center(
+                child: Text(
+                  "Hello' this is ",
+                  style: TextStyle(
+                    fontSize: 15,
+                    fontWeight: FontWeight.w900,
+                    color: Colors.white,
+                  ),
+                ),
+              ),
+            ),
+          ),
+          Center(
+            child: Container(
+              height: 60,
+              width: 180,
+              color: Colors.black,
+              child: Center(
+                child: Text(
+                  "Hello' this is Con",
+                  style: TextStyle(
+                    fontSize: 15,
+                    fontWeight: FontWeight.w900,
+                    color: Colors.white,
+                  ),
+                ),
+              ),
+            ),
+          ),
+          Center(
+            child: Container(
+              height: 60,
+              width: 220,
+              color: Colors.black,
+              child: Center(
+                child: Text(
+                  "Hello' this is Container",
+                  style: TextStyle(
+                    fontSize: 15,
+                    fontWeight: FontWeight.w900,
+                    color: Colors.white,
+                  ),
+                ),
+              ),
+            ),
+          ),
+          Center(
+            child: Container(
+              height: 60,
+              width: 260,
+              color: Colors.black,
+              child: Center(
+                child: Text(
+                  "Hello' this is Container",
+                  style: TextStyle(
+                    fontSize: 15,
+                    fontWeight: FontWeight.w900,
+                    color: Colors.white,
+                  ),
+                ),
+              ),
+            ),
+          ),
+          Center(
+            child: Container(
+              height: 60,
+              width: 300,
+              color: Colors.black,
+              child: Center(
+                child: Text(
+                  "Hello' this is Container",
+                  style: TextStyle(
+                    fontSize: 15,
+                    fontWeight: FontWeight.w900,
+                    color: Colors.white,
+                  ),
+                ),
+              ),
+            ),
+          ),
+          Center(
+            child: Container(
+              height: 60,
+              width: 340,
+              color: Colors.black,
+              child: Center(
+                child: Text(
+                  "Hello' this is Container",
+                  style: TextStyle(
+                    fontSize: 15,
+                    fontWeight: FontWeight.w900,
+                    color: Colors.white,
+                  ),
+                ),
+              ),
+            ),
+          ),
+          Center(
+            child: Container(
+              height: 60,
+              width: 400,
+              color: Colors.black,
+              child: Center(
+                child: Text(
+                  "Hello' this is Container",
+                  style: TextStyle(
+                    fontSize: 15,
+                    fontWeight: FontWeight.w900,
+                    color: Colors.white,
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }
