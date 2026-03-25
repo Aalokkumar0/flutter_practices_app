@@ -10,7 +10,7 @@ class Precticescreen extends StatelessWidget {
         backgroundColor: const Color.fromARGB(255, 0, 0, 0),
         title: Center(
           child: Text(
-            "Practicesapp",
+            "PracticesApp",
             style: TextStyle(
               color: Colors.amber,
               fontSize: 30,
@@ -32,7 +32,7 @@ class Precticescreen extends StatelessWidget {
               color: Colors.black,
               child: Center(
                 child: Text(
-                  "Hello'",
+                  "Row",
                   style: TextStyle(
                     fontSize: 15,
                     fontWeight: FontWeight.w900,
@@ -179,8 +179,28 @@ class Precticescreen extends StatelessWidget {
               ),
             ),
           ),
+          Row(
+            children: [
+              Center(
+            child: Container(
+              color: Colors.black,
+              child: Center(
+                child: Text(
+                  "row'Container",
+                  style: TextStyle(
+                    fontSize: 15,
+                    fontWeight: FontWeight.w900,
+                    color: Colors.white,
+                  ),
+                ),
+              ),
+            ),
+          ),
+            ],
+          )
         ],
       ),
+      
     );
   }
 }
