@@ -19,9 +19,8 @@ class Precticescreen extends StatelessWidget {
           ),
         ),
       ),
-      body: Column(
+      body:Column(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        
         children: [
           SizedBox(height: 20,),
           Center(
@@ -179,25 +178,6 @@ class Precticescreen extends StatelessWidget {
               ),
             ),
           ),
-          Row(
-            children: [
-              Center(
-            child: Container(
-              color: Colors.black,
-              child: Center(
-                child: Text(
-                  "row'Container",
-                  style: TextStyle(
-                    fontSize: 15,
-                    fontWeight: FontWeight.w900,
-                    color: Colors.white,
-                  ),
-                ),
-              ),
-            ),
-          ),
-            ],
-          )
         ],
       ),
       
